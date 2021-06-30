@@ -1,6 +1,6 @@
 # ghp-vocabulary
 
-- https://SemanticClarity.github.io/ghp-vocabulary/
+- https://semanticclarity.github.io/ghp-vocabulary/
 
 ## Maintainers
 
