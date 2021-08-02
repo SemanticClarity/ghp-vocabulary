@@ -1,0 +1,54 @@
+{
+   "_comments": "Auto generated from ghp-CA.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2021-06-30 14:18\n    Schema: ghp-vocab-ca\n    \n    id: https://w3id.org/ghp/ca\n    description: \n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
+   "@context": {
+      "ghp-ca": "https://w3id.org/ghp/ca/",
+      "birthDate": {
+         "@id": "http://hl7.org/fhir/ca/baseline/Patient.birthDate"
+      },
+      "familyName": {
+         "@id": "http://hl7.org/fhir/ca/baseline/Patient.name.familyName"
+      },
+      "givenName": {
+         "@id": "http://hl7.org/fhir/ca/baseline/Patient.name.givenName"
+      },
+      "administeringCentre": {
+         "@id": "http://www.gs1.org/gln"
+      },
+      "batchNumber": {
+         "@id": "https://cvc.canimmunize.ca/v3/StructureDefinition/ca-cvc-lots"
+      },
+      "countryOfVaccination": {
+         "@id": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
+      },
+      "dateOfVaccination": {
+         "@id": "http://hl7.org/fhir/ca/baseline/Immunization.occurenceDateTime"
+      },
+      "healthProfessional": {
+         "@id": "https://cvc.canimmunize.ca/v3/ValueSet/HealthcareProviderRoleType"
+      },
+      "nextVaccinationDate": {
+         "@id": "http://hl7.org/fhir/ca/baseline/ImmunizationRecommendation.dateCriterion.value"
+      },
+      "order": {
+         "@id": "http://hl7.org/fhir/ca/baseline/Immunization.protocolApplied.doseNumber"
+      },
+      "vaccine": {
+         "@id": "http://hl7.org/fhir/ca/baseline/ValueSet/vaccinecodes"
+      },
+      "disease": {
+         "@id": "http://snomed.info/sct/900000000000003001"
+      },
+      "marketingAuthorizationHolder": {
+         "@id": "https://cvc.canimmunize.ca/v3/StructureDefinition/ca-cvc-market-authorization-holder"
+      },
+      "medicinalProductName": {
+         "@id": "https://cvc.canimmunize.ca/v3/Bundle/Tradename"
+      },
+      "vaccineDescription": {
+         "@id": "https://cvc.canimmunize.ca/v3/ValueSet/Generic"
+      },
+      "vaccineType": {
+         "@id": "http://snomed.info/sct/900000000000207008/version/20210131"
+      }
+   }
+}
